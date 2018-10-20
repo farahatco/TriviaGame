@@ -1,0 +1,73 @@
+<!doctype <!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Page Title</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
+  <script src=" https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+  <script src="assets/javascript/app.js"></script>
+
+
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="jumbotron">
+      <h1 class="text-center"> Totally Trivial Trivia!</h1>
+    </div>
+    <div>
+      <button id="startGame" class="button_q"> Start Game</button>
+      <h2 id="counter" class="text-center text-primary"> </h2>
+      <h3 id="statusbar" class="text-center text-primary"></h3>
+      <h2 id="question" class="text-center text-primary"></h2>
+    </div>
+  </div>
+
+  <div class="container hide_answers">
+    <div class="row">
+      <div class="col-lg-3 col-md-3 col-sm-3 col-3">
+        <div class="panel panel-primary">
+          <div class="panel-heading">Game Hints</div>
+          <div class="panel-body text-primary">
+            <p> - Do Your Best.<br>
+              - You Have 20 Sec For each Question.<br>
+              - If You Fail... No Waries You Can Play again and again.<br>
+              - Click Start Game ...<br>
+              Good Luck</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-6 col-6 answers_bg ">
+
+        <div id="answer1Img" class="text-center"> </div>
+        <div><button id="answer1" class="answer button"></button></div>
+        <div><button id="answer2" class="answer button"></button></div>
+        <div><button id="answer3" class="answer button"></button></div>
+        <div><button id="answer4" class="answer button"></button></div>
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-3 col-3"></div>
+    </div>
+
+  </div>
+
+  <div class="container">
+    <div class="row text-center">
+      <div class="col-lg-2 col-md-2 col-sm-2 col-2"></div>
+      <div class="col-lg-8 col-md-8 col-sm-8 col-8 ">
+
+        <div class="resultArea"></div>
+      </div>
+
+      <div class="col-lg-2 col-md-2 col-sm-2 col-2"></div>
+    </div>
+  </div>
+
+</body>
+
+</html>

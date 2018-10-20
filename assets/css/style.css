@@ -1,0 +1,74 @@
+body {
+      /*  background-image: url("trivia_div.png"); */
+      background-color: #5a5656;
+    }
+
+    .container_bg {
+      background-color: #ccc;
+      /*  background-image: url("trivial_2.png"); */
+    }
+
+    .colums {
+      border: 2px black solid;
+    }
+
+    .resultArea {
+      background-color: #ccc;
+      color: black;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 20px;
+      font-style: italic;
+      font-weight: bold;
+    }
+
+    .game_info {
+
+      color: white;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-style: italic;
+      font-weight: bold;
+    }
+
+    .answers_bg {
+      background-color: #ccc;
+    }
+
+    .resultArea {
+      border: 1px solid black;
+    }
+
+    .button {
+      width: 100%;
+      height: 50px;
+      background-color: #ccc;
+      border: none;
+      color: black;
+      padding: 16px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      -webkit-transition-duration: 0.4s;
+      /* Safari */
+      transition-duration: 0.4s;
+      cursor: pointer;
+    }
+
+    .button_q {
+      width: 100%;
+      height: 50px;
+      padding: 4px 10px;
+      display: inline-block;
+      border-radius: 50px;
+      background-color: rgb(74, 122, 228);
+      color: white;
+      border: 5px solid rgb(74, 122, 228);
+      transition: border 0.2s ease;
+    }
+
+    .button:hover {
+      background-color: rgb(114, 64, 207);
+      color: white;
+      border: 2px solid #4CAF50;
+    }
